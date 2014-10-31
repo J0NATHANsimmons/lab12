@@ -27,6 +27,10 @@ class MyApp:
 		self.button1.grid(row=0,column=0)
 		
 	        # Add a second button!
+	        self.button2 = Button(self.myContainer1)
+	        self.button2.configure(text="Right" , background = "green")
+	        self.button2.grid(row=0,column=1)
+	       
 				
 		
 						
